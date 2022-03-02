@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"      
+    xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    x:Class="MoviesApp.Views.MovieDetailPage"
+    Title="Movie Detail">
+    <ContentPage.Content>
+         <ScrollView>
+        <StackLayout Spacing="5" >
+      <CarouselView ItemsSource="{Binding MovieImg}" HorizontalOptions="FillAndExpand" HeightRequest="200" BackgroundColor="Aqua" >
+    <CarouselView.ItemsLayout>
+        <LinearItemsLayout Orientation="Horizontal" />
+    </CarouselView.ItemsLayout>
+    <CarouselView.ItemTemplate>
+        <DataTemplate>
+            <Frame  CornerRadius="15"   HasShadow="True"  Padding="0"        
+                        BorderColor="LightGray"
+                        OutlineColor="LightGray">
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <ffimageloading:CachedImage HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
+                                    
+                                    Source="{Binding FilePath, StringFormat='https://image.tmdb.org/t/p/original/{0}'}"
+                                    LoadingPlaceholder="productplaceholder.png"
+                                   
+                                    Aspect="AspectFill"/>
+                </StackLayout>
+              </Frame>
+            
+        </DataTemplate>
+    </CarouselView.ItemTemplate>
+</CarouselView>
+
+             <StackLayout Margin="10">
+                        <Label Text="Title" Style="{StaticResource PinkBoldLabelStyle}"  />
+                        <Label AutomationId="LabelTitle" Text="{Binding Movie.Title}" FontSize="Small"/>
+
+                    </StackLayout>
+
+             <StackLayout Margin="10">
+                    <Label Text="Release Date" Style="{StaticResource PinkBoldLabelStyle}"/>
+                    <Label Text="{Binding Movie.ReleaseDate, StringFormat='{0:D}'}" />
+
+                    <Label Text="Genres" Style="{StaticResource PinkBoldLabelStyle}" />
+                    <Label Text="{Binding Movie.GenresNames, StringFormat='{0:D}'}" FontSize="Small"/>
+                </StackLayout>
+            <StackLayout Margin="10">
+                    <Label Text="Overview" Style="{StaticResource PinkBoldLabelStyle}" />
+                    <Label Text="{Binding Movie.Overview}" FontSize="Small"/>
+                </StackLayout>
+              
+        </StackLayout>
+          </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,60 @@
+﻿<Properties StartupConfiguration="{F0637603-2230-4033-9773-968C993AE240}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MoviesApp.iOS/Main.cs">
+    <Files>
+      <File FileName="MoviesApp/ViewModels/HomePageViewModel.cs" Line="71" Column="1" />
+      <File FileName="MoviesApp/Views/HomePage.xaml" Line="19" Column="23" />
+      <File FileName="MoviesApp/ViewModels/MoviesSearchPageViewModel.cs" Line="135" Column="1" />
+      <File FileName="MoviesApp/Views/MoviesSearchPage.xaml" Line="48" Column="59" />
+      <File FileName="MoviesApp/ViewModels/MovieDetailPageViewModel.cs" Line="1" Column="1" />
+      <File FileName="MoviesApp/Views/MovieDetailPage.xaml" Line="50" Column="88" />
+      <File FileName="MoviesApp/Styles/DefaultTheme.xaml" Line="41" Column="46" />
+      <File FileName="MoviesApp/Views/ScanPage.xaml" Line="48" Column="68" />
+      <File FileName="MoviesApp.Android/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="MoviesApp.Android/Assets/AboutAssets.txt" Line="1" Column="1" />
+      <File FileName="MoviesApp.iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MoviesApp" expanded="True">
+            <Node name="MoviesApp" expanded="True">
+              <Node name="Styles" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+            <Node name="MoviesApp.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable-xxxhdpi" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="MoviesApp.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+              <Node name="Main.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MoviesApp.Android PreferredExecutionTarget="Android.101fa707" />
+  <MonoDevelop.Ide.ItemProperties.MoviesApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0248E7A1-3CAE-45AC-8D5F-2AFC7F89FCA7" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/amitsopin/Projects/MoviesApp/MoviesApp/Views/ScanPage.xaml.cs" relfile="MoviesApp/Views/ScanPage.xaml.cs" line="84" column="1" />
+      <Breakpoint file="/Users/amitsopin/Projects/MoviesApp/MoviesApp/Views/ScanPage.xaml.cs" relfile="MoviesApp/Views/ScanPage.xaml.cs" line="46" column="1" />
+      <Breakpoint file="/Users/amitsopin/Projects/MoviesApp/MoviesApp/Views/ScanPage.xaml.cs" relfile="MoviesApp/Views/ScanPage.xaml.cs" line="47" column="1" />
+      <Breakpoint file="/Users/amitsopin/Projects/MoviesApp/MoviesApp/Views/ScanPage.xaml" relfile="MoviesApp/Views/ScanPage.xaml" line="46" column="1" />
+      <Breakpoint file="/Users/amitsopin/Projects/MoviesApp/MoviesApp/ViewModels/HomePageViewModel.cs" relfile="MoviesApp/ViewModels/HomePageViewModel.cs" line="71" column="1" />
+      <Breakpoint file="/Users/amitsopin/Projects/MoviesApp/MoviesApp/Views/ScanHomePage.xaml.cs" relfile="MoviesApp/Views/ScanHomePage.xaml.cs" line="36" column="1" />
+      <Breakpoint file="/Users/amitsopin/Projects/MoviesApp/MoviesApp/ViewModels/ScanHomePageViewModel.cs" relfile="MoviesApp/ViewModels/ScanHomePageViewModel.cs" line="161" column="1" />
+      <Breakpoint file="/Users/amitsopin/Projects/MoviesApp/MoviesApp/ViewModels/ScanHomePageViewModel.cs" relfile="MoviesApp/ViewModels/ScanHomePageViewModel.cs" line="176" column="1" />
+      <Breakpoint file="/Users/amitsopin/Projects/MoviesApp/MoviesApp/ViewModels/ScanHomePageViewModel.cs" relfile="MoviesApp/ViewModels/ScanHomePageViewModel.cs" line="183" column="1" />
+      <Breakpoint file="/Users/amitsopin/Projects/MoviesApp/MoviesApp/ViewModels/ScanHomePageViewModel.cs" relfile="MoviesApp/ViewModels/ScanHomePageViewModel.cs" line="219" column="1" />
+      <Breakpoint file="/Users/amitsopin/Projects/MoviesApp/MoviesApp/ViewModels/ScanHomePageViewModel.cs" relfile="MoviesApp/ViewModels/ScanHomePageViewModel.cs" line="26" column="1" />
+      <Breakpoint file="/Users/amitsopin/Projects/MoviesApp/MoviesApp/ViewModels/MoviesSearchPageViewModel.cs" relfile="MoviesApp/ViewModels/MoviesSearchPageViewModel.cs" line="135" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

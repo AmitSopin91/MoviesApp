@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+     xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"  
+    prism:ViewModelLocator.AutowireViewModel="True"
+    x:Class="MoviesApp.Views.MoviesSearchPage">
+      
+    <ContentPage.Content>
+          <StackLayout>
+            <SearchBar 
+                x:Name="SearchBar"
+                AutomationId="SearchBar"
+                Placeholder="Search"
+                SearchCommand="{Binding SearchCommand}"
+                Text="{Binding SearchTerm}"/>
+
+           <CollectionView ItemsSource="{Binding SearchResults}" x:Name="cvTagsCollectionView"
+                  ItemSizingStrategy="MeasureAllItems"
+                      RemainingItemsThreshold="{Binding ItemTreshold}" 
+                       RemainingItemsThresholdReachedCommand="{Binding ItemTresholdReachedCommand}"
+                       
+                     SelectionChangedCommand="{Binding MovieDetailCommand}"
+                     SelectionChangedCommandParameter="{Binding SelectedItem, Source={x:Reference cvTagsCollectionView}}"
+                  SelectionMode="Single">
+      <CollectionView.ItemsLayout>
+          <GridItemsLayout Orientation="Vertical" Span="2"/>
+      </CollectionView.ItemsLayout>
+      <CollectionView.EmptyView>
+          <StackLayout Padding="12">
+              <Label HorizontalOptions="Center" Text="No Movie found"></Label>
+          </StackLayout>
+      </CollectionView.EmptyView>
+
+    <CollectionView.ItemTemplate>
+          <DataTemplate>
+              <StackLayout  Padding="10">
+               <Frame  CornerRadius="15"                   
+                        BorderColor="LightGray" Padding="0,0,0,4"
+                        OutlineColor="LightGray" >
+                  <StackLayout VerticalOptions="FillAndExpand"  HorizontalOptions="FillAndExpand">
+
+                        <ffimageloading:CachedImage
+                    AutomationId="ImageViewCell"
+                    
+                    Source="{Binding PosterPath, StringFormat='https://image.tmdb.org/t/p/w154/{0}'}"
+                    LoadingPlaceholder="productplaceholder.png" WidthRequest="200"  HeightRequest="220" HorizontalOptions="FillAndExpand" VerticalOptions="Fill"
+                    DownsampleToViewSize="True"/>
+
+                         <Label HorizontalOptions="Center"
+                                FontSize="16"
+                                FontAttributes="Bold"
+                                Text="{Binding Title}"/>
+                       <Label Text="{Binding ReleaseDate, StringFormat='{0:D}'}"
+                              LineBreakMode="NoWrap" HorizontalOptions="Center"
+                              FontSize="12"/>
+
+                     </StackLayout>
+                 </Frame>
+              </StackLayout>
+             
+
+          </DataTemplate>
+    </CollectionView.ItemTemplate>
+</CollectionView>      
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

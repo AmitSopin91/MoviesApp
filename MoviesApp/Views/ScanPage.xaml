@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                             xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+            
+     xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    x:Class="MoviesApp.Views.ScanPage">
+     <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="scanImage" TargetType="Image">
+                <Setter Property="WidthRequest" >
+                    <Setter.Value>
+                        <OnIdiom x:TypeArguments="x:Double" Phone="30" Tablet="40"/>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="HeightRequest" >
+                    <Setter.Value>
+                        <OnIdiom x:TypeArguments="x:Double" Phone="30" Tablet="40"/>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="Source" Value="Path.png" >
+
+                </Setter>
+
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+
+           <Grid x:Name="maingrid"
+                 BackgroundColor="White"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.8*" />
+                <RowDefinition Height="7.7*" />
+                <RowDefinition Height="1.5*" />
+            </Grid.RowDefinitions>
+
+            <StackLayout Grid.Row="0"
+                         BackgroundColor="White"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="Center">
+                <Label Text="Scan QR / Bar Code"
+                       Style="{StaticResource GreenLabelScanStyle}"
+                       HorizontalTextAlignment="Center"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+            </StackLayout>
+                 <zxing:ZXingScannerView Grid.Row="1"
+                                     IsVisible="{Binding IsVisible}" 
+                                     x:Name="scanView" IsScanning="{Binding IsScanning}"
+                                     IsAnalyzing="{Binding IsAnalyzing}"
+                                     Result="{Binding Result, Mode=TwoWay}"
+                                         OnScanResult="scanView_OnScanResult"
+                                     ScanResultCommand="{Binding QRScanResultCommand}"/>
+
+
+            <StackLayout x:Name="scannerview" Grid.Row="1"/>
+            <Grid   IsVisible="{Binding IsPermissionVisible, Converter={StaticResource Key=reversebool}}"
+                    Grid.Row="1"
+                    Padding="20"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand">
+                <Grid.RowSpacing>
+                    <OnIdiom x:TypeArguments="x:Double" Phone="230" Tablet="400"/>
+                </Grid.RowSpacing>
+                <Grid.ColumnSpacing>
+                    <OnIdiom x:TypeArguments="x:Double" Phone="230" Tablet="400"/>
+                </Grid.ColumnSpacing>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.5*"/>
+                    <RowDefinition Height="0.5*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Grid.Row="0" Grid.Column="0"   Style="{StaticResource scanImage}" />
+                <Image Grid.Row="0" Grid.Column="1" Rotation="90"  Style="{StaticResource scanImage}" />
+                <Image Grid.Row="1" Grid.Column="0" Rotation="270"   Style="{StaticResource scanImage}"/>
+                <Image Grid.Row="1" Grid.Column="1" Rotation="180"   Style="{StaticResource scanImage}"/>
+
+            </Grid>
+
+            <StackLayout IsVisible="{Binding IsPermissionVisible}"
+                         Grid.Row="1"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+            <Label Text="Allow access to your Camera to scan Bar / QR Codes."
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"/>
+            <Button Text="Enable Camera Access"
+                    Clicked="Button_Clicked"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="2"
+                         BackgroundColor="White"
+                         HorizontalOptions="FillAndExpand">
+                <Label Text="Scanning will start automatically"
+                       Style="{StaticResource PinkLabelStyle}"
+                       Margin="0,20,0,0"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+            </StackLayout>
+        </Grid>
+
+        
+    </ContentPage.Content>
+</ContentPage>

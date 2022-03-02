@@ -1,0 +1,93 @@
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/MoviesApp.iOS.exe
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/MoviesApp.iOS.pdb
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/DryIoc.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Prism.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Prism.pdb
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Prism.DryIoc.Forms.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Prism.DryIoc.Forms.pdb
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Prism.Forms.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Prism.Forms.pdb
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/WebP.Touch.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.pdb
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.pdb
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.Platform.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.Platform.pdb
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.pdb
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/ZXing.Net.Mobile.Core.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/ZXingNetMobile.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/zxing.portable.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/ZXing.Net.Mobile.Forms.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/ZXing.Net.Mobile.Forms.iOS.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/MoviesApp.dll
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/bin/iPhoneSimulator/Debug/MoviesApp.pdb
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/actool/_PartialAppManifest.items
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/actool/_BundleResourceWithLogicalName.items
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/actool/_ProcessedImageAssetsPath.items
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/coremlc/_PartialAppManifest.items
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/_ProcessedBundleResourcesPath.items
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/_ProcessedContentPath.items
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/optimized/Search.png
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/optimized/Search@2x.png
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/optimized/Search@3x.png
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/optimized/scan.png
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/optimized/scan@2x.png
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/optimized/scan@3x.png
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/optimized/productplaceholder.png
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/optimized/productplaceholder@2x.png
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/optimized/productplaceholder@3x.png
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13-15.2/optimized/
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/MoviesApp.iOS.csproj.CoreCompileInputs.cache
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/MoviesApp.iOS.csproj.CopyComplete
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/MoviesApp.iOS.exe
+/Users/amitsopin/Projects/MoviesApp/MoviesApp.iOS/obj/iPhoneSimulator/Debug/MoviesApp.iOS.pdb
